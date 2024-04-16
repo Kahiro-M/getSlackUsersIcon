@@ -16,7 +16,7 @@ def main(TOKEN,user_icon_dir):
         )
     response = session.get(url, headers=headers, timeout=3)
     for i, member in enumerate(response.json()['members']):
-        if((member['name'] in ['slackbot','kintone-dev']) or (member['is_bot'] == True)):
+        if((member['name'] in ['slackbot']) or (member['is_bot'] == True)):
             continue
         else:
             image512px_url = member['profile']['image_512']
