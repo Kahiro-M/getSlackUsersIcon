@@ -1,0 +1,9 @@
+user_icon/*.jpg
+.vscode/launch.json
+.env/*
+.venv/*
+env/*
+venv/*
+build/*
+dist/*
+*.spec

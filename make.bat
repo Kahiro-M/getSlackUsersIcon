@@ -1,0 +1,1 @@
+pyinstaller --onefile --icon=icon.ico download-slack-profile-pictures.py -n getUsersIcon
